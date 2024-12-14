@@ -1,0 +1,24 @@
+:root {
+  /* Base colors */
+  --color-white-primary: #ffffff;
+  --color-white-secondary: #d9d9d9;
+  --color-gray-primary: #1f1f1f;
+  --color-gray-secondary: #313131;
+
+  /* Accent colors */
+  --color-accent-beige: #e9ded4;
+  --color-accent-red: #f54932;
+  --color-accent-yellow: #fbce51;
+  --color-accent-blue: #3057a2;
+
+  /* Padding */
+  --vertical-padding: 7.2rem;
+  --horizontal-padding: 7.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --vertical-padding: 6rem;
+    --horizontal-padding: 2rem;
+  }
+}

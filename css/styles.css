@@ -1,3 +1,12 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+
+@import "./components/header.css";
+
+/* Fonts */
+
 @font-face {
   font-display: swap;
   font-family: "Golos Text";
@@ -41,4 +50,13 @@
   font-weight: 700;
   src: url("../assets/fonts/merriweather-700.woff2") format("woff2"),
     url("../assets/fonts/merriweather-700.woff") format("woff");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 400;
 }
