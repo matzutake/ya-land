@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="msapplication-TileColor" content="#FBCE51" />
 
     <link rel="stylesheet" href="css/styles.css" />
     <title>Клуб четырех коней</title>
@@ -40,7 +39,6 @@
     <main>
       <section class="preview">
         <div class="preview__wrapper">
-          <h1>Клуб четырех коней</h1>
           <p class="preview__title">
             Превратите <br />
             уездный город <br />
@@ -53,13 +51,228 @@
           </p>
 
           <div class="preview__actions">
-            <a href="#">Поддержать шахматную мысль</a>
-            <a href="#">Подробнее о турнире</a>
+            <a class="button button-l-filled support" href="#cover">
+              <span>Поддержать шахматную мысль</span>
+            </a>
+            <a class="button button-l-outlined details" href="#stages">
+              <span>Подробнее о турнире</span>
+            </a>
           </div>
         </div>
       </section>
+
+      <div class="running-line"></div>
+
+      <section class="chess-game">
+        <p class="chess-game__text">
+          Чтобы поддержать <br />
+          Международный васюкинский турнир посетите лекцию на тему:
+          <span class="chess-game__text chess-game__text_accent">
+            «Плодотворная дебютная идея»
+          </span>
+        </p>
+
+        <img
+          class="chess-game__image"
+          src="./assets/images/chess-game.jpg"
+          alt="Шахматисты в игре"
+        />
+      </section>
+
+      <section class="cover" id="cover">
+        <img
+          class="cover__image"
+          src="/assets/images/cover.jpg"
+          alt="Фото шахматиста"
+        />
+        <div class="cover__content">
+          <p class="cover__text">
+            и сеанс
+            <span class="cover__text cover__text--accent">
+              одновременной игры в шахматы на 160 досках
+            </span>
+            гроссмейстера О. Бендера
+          </p>
+          <table class="cover__info">
+            <tbody>
+              <tr>
+                <td>Место проведения:</td>
+                <td>Клуб «Картонажник»</td>
+              </tr>
+              <tr>
+                <td>Дата и время мероприятия:</td>
+                <td>22 июня 1927 г. в 18:00</td>
+              </tr>
+              <tr>
+                <td>Стоимость входных билетов:</td>
+                <td>20 коп.</td>
+              </tr>
+              <tr>
+                <td>Плата за игру:</td>
+                <td>50 коп.</td>
+              </tr>
+              <tr>
+                <td>Взнос на телеграммы:</td>
+                <td>
+                  <del class="cover__old-price">100 руб.</del> 21 руб. 16 коп.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <a class="cover__ask" href="#">
+            По всем вопросам обращаться в администрацию к К. Михельсону
+          </a>
+        </div>
+      </section>
+
+      <section class="stages" id="stages">
+        <h2 class="stages__title">
+          Этапы преображения <br />
+          Васюков
+        </h2>
+        <span class="stages__description">
+          Будущие источники<br />
+          обогащения васюкинцев
+        </span>
+
+        <div class="stages__content">
+          <ol class="stages__list">
+            <li>Строительство железнодорожной магистрали Москва-Васюки</li>
+            <li>
+              Открытие фешенебельной гостиницы «Проходная пешка» и других
+              небоскрёбов
+            </li>
+            <li>
+              Поднятие сельского хозяйства в радиусе на тысячу километров:
+              производство овощей, фруктов, икры, шоколадных конфет
+            </li>
+            <li>Строительство дворца для турнира</li>
+            <li>Размещение гаражей для гостевого автотранспорта</li>
+            <li>
+              Постройка сверхмощной радиостанции для передачи всему миру
+              сенсационных результатов
+            </li>
+            <li>
+              Создание аэропорта «Большие Васюки» с регулярным отправлением
+              почтовых самолётов и дирижаблей во все концы света, включая
+              Лос-Анжелос и Мельбурн
+            </li>
+          </ol>
+        </div>
+
+        <div class="stages__switch">
+          <button class="stages__button stages__prev"></button>
+
+          <ul class="stages__pages">
+            <li class="stages__slide stages__slide--active"></li>
+            <li class="stages__slide"></li>
+            <li class="stages__slide"></li>
+            <li class="stages__slide"></li>
+            <li class="stages__slide"></li>
+          </ul>
+
+          <button class="stages__button stages__next"></button>
+        </div>
+      </section>
+
+      <section class="members">
+        <div class="members__header">
+          <h2 class="members__title">Участники турнира</h2>
+          <div class="members__switch">
+            <button class="members__button members__prev"></button>
+
+            <div class="members__pages">
+              <span class="members__current">1</span>
+              <span class="members__total">6</span>
+            </div>
+
+            <button class="members__button members__next"></button>
+          </div>
+        </div>
+
+        <div class="members__slider">
+          <ul class="member__content">
+            <li class="member__item">
+              <img
+                class="member__img"
+                src="/assets/images/avatar.svg"
+                alt="Фото участника"
+              />
+              <h3 class="member__name">Хозе-Рауль Капабланка</h3>
+              <span class="member__description">Чемпион мира по шахматам</span>
+              <a class="member__link" href="">Подробнее</a>
+            </li>
+
+            <li class="member__item">
+              <img
+                class="member__img"
+                src="/assets/images/avatar.svg"
+                alt="Фото участника"
+              />
+              <h3 class="member__name">Хозе-Рауль Капабланка</h3>
+              <span class="member__description">Чемпион мира по шахматам</span>
+              <a class="member__link" href="">Подробнее</a>
+            </li>
+
+            <li class="member__item">
+              <img
+                class="member__img"
+                src="/assets/images/avatar.svg"
+                alt="Фото участника"
+              />
+              <h3 class="member__name">Хозе-Рауль Капабланка</h3>
+              <span class="member__description">Чемпион мира по шахматам</span>
+              <a class="member__link" href="">Подробнее</a>
+            </li>
+
+            <li class="member__item">
+              <img
+                class="member__img"
+                src="/assets/images/avatar.svg"
+                alt="Фото участника"
+              />
+              <h3 class="member__name">Хозе-Рауль Капабланка</h3>
+              <span class="member__description">Чемпион мира по шахматам</span>
+              <a class="member__link" href="">Подробнее</a>
+            </li>
+
+            <li class="member__item">
+              <img
+                class="member__img"
+                src="/assets/images/avatar.svg"
+                alt="Фото участника"
+              />
+              <h3 class="member__name">Хозе-Рауль Капабланка</h3>
+              <span class="member__description">Чемпион мира по шахматам</span>
+              <a class="member__link" href="">Подробнее</a>
+            </li>
+
+            <li class="member__item">
+              <img
+                class="member__img"
+                src="/assets/images/avatar.svg"
+                alt="Фото участника"
+              />
+              <h3 class="member__name">Хозе-Рауль Капабланка</h3>
+              <span class="member__description">Чемпион мира по шахматам</span>
+              <a class="member__link" href="">Подробнее</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="running-line"></div>
+
+      <footer class="footer">
+        <p class="footer__text">
+          Все персонажи, события и цитаты являются вымышленными и не принадлежат
+          создателям сайта. С подробностями можно познакомиться в главе XXXIV
+          романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+        </p>
+      </footer>
     </main>
 
-    <script defer src="js/index.js"></script>
+    <script defer src="js/stageSlider.js"></script>
+    <script defer src="js/memberSlider.js"></script>
   </body>
 </html>

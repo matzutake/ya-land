@@ -1,0 +1,50 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26.3rem;
+  height: 7.2rem;
+  padding: 2rem;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 130%;
+  text-align: center;
+  border-radius: 7rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 200ms;
+
+  span {
+    max-width: 75%;
+  }
+}
+
+.button-l-filled {
+  background-color: var(--color-gray-primary);
+  color: var(--color-white-primary);
+}
+
+.button-l-filled:hover {
+  background-color: var(--color-accent-yellow);
+  color: var(--color-white-primary);
+}
+
+.button-l-outlined {
+  background-color: transparent;
+  border: 2px solid var(--color-gray-primary);
+  color: var(--color-gray-primary);
+}
+
+.button-l-outlined:hover {
+  background-color: var(--color-gray-primary);
+  color: var(--color-white-primary);
+}
+
+@media screen and (max-width: 900px) {
+  .button-l-filled,
+  .button-l-outlined {
+    width: 33.5rem;
+    height: 4.7rem;
+  }
+}

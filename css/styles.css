@@ -2,8 +2,14 @@
 @import "variables.css";
 
 /* Components */
-
 @import "./components/header.css";
+@import "./components/button.css";
+@import "./components/running-line.css";
+@import "./components/chess-game.css";
+@import "./components/cover.css";
+@import "./components/stages.css";
+@import "./components/members.css";
+@import "./components/footer.css";
 
 /* Fonts */
 
@@ -54,6 +60,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {

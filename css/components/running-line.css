@@ -1,0 +1,18 @@
+.running-line {
+  width: 100%;
+  height: 6rem;
+  background-color: var(--color-accent-red);
+  background-image: url("../../assets/images/running-line.svg");
+  background-size: 2323px 27px;
+  background-repeat: repeat-x;
+  animation: running-line 15s linear infinite;
+}
+
+@keyframes running-line {
+  from {
+    background-position: 2323px center;
+  }
+  to {
+    background-position: 0 center;
+  }
+}
