@@ -150,7 +150,7 @@
   background-color: var(--color-gray-primary);
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1365px) {
   .stages {
     display: flex;
     flex-direction: column;
@@ -232,7 +232,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1365px) {
   .stages__list {
     transform: translateX(0);
   }

@@ -37,6 +37,13 @@
   color: var(--color-gray-secondary);
 }
 
+.members__pages {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+}
+
 .members__prev {
   display: block;
   width: 4.4rem;
@@ -63,6 +70,7 @@
 .member__content {
   display: flex;
   justify-content: start;
+  gap: 2rem;
   transition: transform 0.4s ease-in-out;
 }
 
@@ -131,7 +139,7 @@
   background-color: var(--color-accent-blue);
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1365px) {
   .members {
     padding: var(--vertical-padding) var(--horizontal-padding);
   }
@@ -165,7 +173,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1365px) {
   .member__item:first-child {
     padding-left: 3.7rem;
   }
